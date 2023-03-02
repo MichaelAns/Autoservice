@@ -1,6 +1,6 @@
 ﻿namespace Autoservice.Persistance.Models.Base
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
         public int ID { get; set; }
     }
