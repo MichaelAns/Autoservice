@@ -2,7 +2,7 @@
 {
     public class Order : BaseEntity
     {
-        public DateOnly Date { get; set; }
+        public string Date { get; set; }
         public int Cost { get; set; }
         public int CarID { get; set; }
         public int ClientID { get; set; }

@@ -9,12 +9,12 @@ namespace Autoservice.Persistance.Data
         {
             Database.EnsureCreated();
         }
-        DbSet<Car> Car { get; set; }
-        DbSet<Client> Client { get; set; }
-        DbSet<Employee> Employee { get; set; }
-        DbSet<Order> Order { get; set; }
-        DbSet<Position> Position { get; set; }
-        DbSet<Service> Service { get; set; }
-        DbSet<ServiceOrder> ServiceOrder { get; set; }
+        public DbSet<Car> Car { get; set; }
+        public DbSet<Client> Client { get; set; }
+        public DbSet<Employee> Employee { get; set; }
+        public DbSet<Order> Order { get; set; }
+        public DbSet<Position> Position { get; set; }
+        public DbSet<Service> Service { get; set; }
+        public DbSet<ServiceOrder> ServiceOrder { get; set; }
     }
 }

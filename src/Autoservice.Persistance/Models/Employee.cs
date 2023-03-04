@@ -6,8 +6,8 @@
         public string SecondName { get; set; }
         public string? SurName { get; set; }
         public string Phone{ get; set; }
-        public DateOnly BirthDate { get; set; }
-        public DateOnly RecDate { get; set; }
+        public string BirthDate { get; set; }
+        public string RecDate { get; set; }
         public virtual int PositionID { get; set; }
         public virtual Position Position{ get; set; }
         public virtual IEnumerable<Order> Orders { get; set; }
